@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: Geologica, sans-serif
+}
+
+.first_bar{
+   height: 30px;
+   background-color: rgb(239, 239, 239);
+}
+
+.second_bar{
+   height: 87px;
+}
+
+.third_bar{
+    height: 40px;
+    border-top: 1px solid rgb(158, 158, 158);
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.first_bar_container,
+.second_bar_container,
+.third_bar_container{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_bar_container_first_section,
+.first_bar_container_second_section,
+.first_bar_container_third_section
+{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_bar_container_first_section{
+    width: 300px;
+}
+
+.first_bar_container_second_section{
+    width: 450px;
+}
+
+.first_bar_container_third_section{
+    width: 280px;
+}
+
+.first_bar_container_third_section svg,
+.favourites svg{
+   margin-bottom: -4px;
+}
+
+.phone_number{
+    font-size: 11pt;
+}
+
+.schedule_info{
+    width: 140px;
+    font-size: 9pt;
+}
+
+.third_bar_content_offset{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.catalogs{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.favourites{
+    display: flexbox;
+    height: 40px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    border-left: 1px solid rgb(158, 158, 158);
+    border-right: 1px solid rgb(158, 158, 158);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(227, 31, 35);
+    position: absolute;
+    top: 1;
+    left: 0;  
+    width: 100%;
+  }
+
+.main_content{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+main img{
+    border-radius: 3px;
+}

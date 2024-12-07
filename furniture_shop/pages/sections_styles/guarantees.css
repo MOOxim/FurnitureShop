@@ -1,0 +1,7 @@
+.main_content a{
+    font-size: larger;
+    font-style: italic;
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+    border-radius: 3px;
+}
